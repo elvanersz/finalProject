@@ -1,0 +1,163 @@
+{"intents": [
+      {"tag": "greetings",
+       "patterns": ["Merhaba", "Hey", "Selam", "Selamlar","Bir şey sorabilir miyim?", "Naber?"],
+       "responses": ["Merhaba", "Hoş geldiniz!", "Merhaba! Sizi dinliyorum.", "Selam", "Merhaba! Nasıl yardımcı olabilirim?"]
+      },
+      {"tag": "goodbye",
+       "patterns": ["İyi günler!", "İyi akşamlar!", "İyi geceler!", "Güle güle!", "Görüşmek üzere!", "Kendinize iyi bakın!", "Sonra görüşürüz!"],
+       "responses": ["Görüşmek üzere, iyi günler!", "Mutlu günler!", "Güle güle, yine bekleriz!", "İyi günler, bizi tercih ettiğiniz için teşekkür ederiz"]
+      },
+      {"tag": "thanks",
+       "patterns": ["Teşekkürler", "Teşekkür ederim.", "Yardımlarınız için teşekkürler.", "Sağ olun", "İşime yarayan bir bilgiydi teşekkürler."],
+       "responses": ["Yardımcı olabildiğimize sevindik!", "Sizin için buradayız!", "Sizinle ilgilenmek bizim için bir zevkti!", "Rica ederiz!"]
+      },
+      {"tag": "about",
+       "patterns": ["Kimsin?", "Sen kimsin?","Kendini tanıtabilir misin?", "Kendinden bahseder misin?","Adın ne?"],
+       "responses": ["Ben SSR. 2022 yılında yapıldım. Size yardımcı olabilmek için buradayım!", "Ben SSR. Yapay zeka ile yaratılmış bir sohbet botuyum."]
+      },
+      {"tag": "name",
+      "patterns": ["Adınız nedir?", "Size nasıl hitap edebilirim?", "İsminiz nedir?", "Senin adın ne?","İsmin ne?","Kiminle görüşüyorum?"],
+      "responses": ["Bana SSR diyebilirsiniz.", "Bana kısaca SSR diyebilirsiniz."]
+      },
+      {"tag": "help",
+      "patterns": ["Help", "Yardım","Bana yardımcı olabilir misin?", "Yardıma ihtiyacım var.", "Yardım edebilir misiniz?", "Benim için ne yapabilirsin?", "Desteğe ihtiyacım var.", "Bana destek olur musunuz lütfen."],
+      "responses": ["Buyrun size nasıl yardımcı olabilirim.", "Probleminiz nedir? Detaylı bir bilgi verebilirseniz size yardımcı olabilirim.", "Evet, tabii ki! Size nasıl destek olabilirim."]
+      },
+
+
+      {"tag": "Diyabet Hastalığı",
+      "patterns": ["Şeker","Şeker hastalığı","Diyabet", "Diyabet nedir", "Şeker hastalığı nedir"],
+      "responses": ["Halk arasında genel olarak şeker hastalığı olarak tabir edilen Diabetes Mellitus, \ngenel olarak kanda glukoz (şeker) seviyesinin normalin üzerine çıkması, buna bağlı olarak \nnormalde şeker içermemesi gereken idrarda şekere rastlanmasıdır.\n"]
+      },
+      {"tag": "Diyabet Belirtileri",
+      "patterns": ["Şeker Belirtileri","Şeker hastalığı belirtileri","Diyabet belirtileri"],
+      "responses": ["Halsizlik ve yorgunluk hissi, Hızlı ve istemsiz kilo kaybı, Bulanık görme, Ayaklarda uyuşma ve karıncalanma şeklinde rahatsızlık hissi, Yaraların normalden daha geç iyileşmesi, Ciltte kuruluk ve kaşıntı, Ağızda aseton benzeri koku oluşumu."]
+      },
+      {"tag": "Diyabet Nedenleri",
+      "patterns": ["Şeker nedenleri","Şeker hastalığı nedenleri","Diyabet nedenleri"],
+      "responses": ["Obezite (aşırı kilo), Ebeveynlerde diyabet öyküsünün bulunması, İleri yaş, Hareketsiz yaşam tarzı, Stres, Gebelik sırasında normalden yüksek doğum ağırlıklı bebek dünyaya getirme."]
+      },
+
+
+      {"tag": "Kanser Hastalığı",
+      "patterns": ["Kanser","Kanser hastalığı", "Kanser hastalığı nedir"],
+      "responses": ["Kanser, vücudun herhangi organ ya da dokusundaki hücrelerin kontrolsüz çoğalması ve büyümesi \nsonucu ortaya çıkan bir hastalık tablosudur. Kanser oluştuğu dokuya göre adlandırılır. \n200'den fazla tipi tespit edilmiştir."]
+      },
+      {"tag": "Kanser Belirtileri",
+      "patterns": ["Kanser Belirtileri","Kanser hastalığı belirtileri"],
+      "responses": ["Anormal kilo kaybı, İdrardan ya da dışkıdan kan gelmesi, Memede kitle, Vücudun herhangi bir yerinde kitle, Öksürük, Göğüs ağrısı, Nefes darlığı, Kan tükürme, Nedensiz, geçmeyen ishal veya kabızlık, tMide veya makat ağrısı, Öksürükte kan, Benlerin renginde değişme, Anormal vajinal veya rektal kanamalar."]
+      },
+      {"tag": "Kanser Nedenleri",
+      "patterns": ["Kanser nedenleri","Kanser hastalığı nedenleri"],
+      "responses": ["Yaş, Kansere neden olan maddeler(Kanserojenler), Kronik iltihap, Kötü beslenme, Hormonlar, Bağışıklık sisteminin zayıf olması, Şişmanlık, Radyasyon, Tütün."]
+      },
+
+
+      {"tag": "Tansiyon Hastalığı",
+      "patterns": ["Tansiyon","Tansiyon hastalığı", "Tansiyon hastalığı nedir"],
+      "responses": ["Atardamarların içindeki kan basıncına tansiyon denir. Kapl kası kasıldığında atardamarlara kan pompalanır. \nBu esnada ölçülen basınç sistolik basınçtır. Kalp kası gevşediğinde ise kan damarda durulur; bu esnada ölçülen basınç diastolik basınçtır. \nTansiyon ölçümünde sistolik (büyük) ve diyastolik (küçük) kan basınçlarına bakılır."]
+      },
+      {"tag": "Tansiyon Belirtileri",
+      "patterns": ["Tansiyon Belirtileri","Tansiyon hastalığı belirtileri"],
+      "responses": ["Sık idrara çıkma özellikle geceleri uyanıp idrar yapma, Bulanık ya da çift görme, Bacaklarda şişlik, Nefes darlığı, Halsizlik, yorgunluk, isteksizlik, Kulak çınlaması, Burun kanamaları, Düzensiz kalp atışı ve kalp ağrısı, Baş dönmesi ve baş ağrısı."]
+      },
+      {"tag": "Tansiyon Nedenleri",
+      "patterns": ["Tansiyon nedenleri","Tansiyon hastalığı nedenleri"],
+      "responses": ["Aşırı tuzlu gıdalarla beslenme, Kafa içi basıncın yüksek olması, Aort damarının kalpten çıktığı bölgenin dar olması, Böbrek tümörleri, Akut ya da kronik böbrek hastalıkları, Böbrek damarlarının daralması, Tiroid bezi hastalıkları, Şeker hastalığı, Kolesterol yüksekliği, Gebelik, Kilo fazlalığı, Alkol ve sigara kullanımı."]
+      },
+
+
+      {"tag": "Covid Hastalığı",
+      "patterns": ["Covid","Korona", "Korona hastalığı nedir", "cov"],
+      "responses": ["Koronavirüsler, hem insanlarda hem de hayvanlarda enfeksiyona neden olabilen çok çeşitli bir virüs ailesidir. \nBirkaç tür koronavirüs , insanlarda hafif üst solunum yolu hastalığına neden olurken SARS-CoV ve MERS-CoV gibi virüsler daha ciddi solunum yolu hastalıklarına neden olabilir. \n2019'un sonlarında Çin'de SARS-CoV-2 adlı yeni bir koronavirüs ortaya çıktı. Bu virüs o zamandan beri dünyadaki birçok başka ülkeye yayıldı. \nSARS-CoV-2 enfeksiyonu, COVID-19 adı verilen bir solunum hastalığına neden olmaktadır."]
+      },
+      {"tag": "Covid Belirtileri",
+      "patterns": ["Covid Belirtileri","Covid hastalığı belirtileri", "Korona belirtileri"],
+      "responses": ["Öksürük, Yüksek ateş, Kas ve eklem ağrısı, Tat ve koku kaybı, Tefes darlığı, Boğaz ağrısı, tBaş ağrısı, İshal, mide bulantısı ve kusma gibi gastrointestinal belirtiler, El ve ayak parmaklarında renk değişikliği, Cilt döküntüsü."]
+      },
+
+
+      {"tag": "SMA Hastalığı",
+      "patterns": ["SMA","SMA hastalığı", "SMA hastalığı nedir"],
+      "responses": ["Spinal müsküler atrofi (SMA), kaslarda küçülmeye yol açan bir grup genetik hastalığa verilen addır. \nSMA, beyin kökü ve omurilikte yer alan sinir hücrelerindeki kayıp sonrası ortaya çıkar. \nBu durum sonucu ilgili sinirlerin innerve ettiği kaslarda işlev kaybı görülür ve bu kaslar atrofiye uğrar."]
+      },
+      {"tag": "SMA Belirtileri",
+      "patterns": ["SMA Belirtileri","SMA hastalığı belirtileri"],
+      "responses": ["Motor gelişim eksikliğine yol açan zayıf kaslar ve güçsüzlük, Azalmış refleksler, Ellerde titreme, Baş kontrolünü sağlayamama, Beslenme güçlüğü, Cılız ses ve zayıf öksürük, Kramp ve yürüme yeteneği kaybı, Yaşıtlarından geri kalma, Sık düşme, Oturma, ayakta durma ve yürümede zorluk, Dil seğirmesi."]
+      },
+      {"tag": "SMA Nedenleri",
+      "patterns": ["SMA nedenleri","SMA hastalığı nedenleri"],
+      "responses": ["SMA hastalığına sinir sistemindeki motor nöronun hayatta kalması için gerekli olan ve SMN adı verilen bir motor nöron proteininin eksikliği neden olur. SMN motor nöronlarda gen ekspresyonunda önemli bir rol oynar. Bu eksiklik, SMN1 adı verilen bir genin 5. kromozomu üzerindeki genetik kusurlardan kaynaklanır. Bu kusurlar arasında en yaygın olanı SMN1 geninin hiç varolmamasıdır. Komşu SMN2 geni bu genin görevini yüklenebilecek kadar benzerdir. SMA hastalığı çok daha nadir olarak SMN1 geni dışındaki genlerin mutasyonundan da kaynaklanabilir, ve kromozom 5 kaynaklı olmayan SMA hastalığı olarak adlandırılırlar."]
+      },
+
+
+      {"tag": "Kolestrol Hastalığı",
+      "patterns": ["Kolestrol","Kolestrol hastalığı", "Kolestrol hastalığı nedir"],
+      "responses": ["Kolesterol yüksekliği olarak bilinen hiperlipidemi, kandaki çeşitli yağların olması gerekenden yüksek düzeyde olması durumudur."]
+      },
+      {"tag": "Kolestrol Belirtileri",
+      "patterns": ["Kolestrol Belirtileri","Kolestrol hastalığı belirtileri"],
+      "responses": ["Yüzde ve özellikle göz çevresinde oluşan sarı renkli yağ bezeleri, Göğüs ağrısı, Halsizlik ve yorgunluk, Ayak ve bacaklarda ağrı, uyuşma, Baş dönmesi, Yaraların geç iyileşmesi, Solgun görünümlü cilt, Nefes darlığı, Deri altında yağ birikmesi, Ciltte lekelenmeler, Vücudun bazı bölgelerinde morarmalar."]
+      },
+      {"tag": "Kolestrol Nedenleri",
+      "patterns": ["Kolestrol nedenleri","Kolestrol hastalığı nedenleri"],
+      "responses": ["Sigara içilmesi veya sigara dumanına maruz kalınması, Fazla kilo veya obezite, Kötü beslenme alışkanlıkları (Doymuş veya trans yağ içeren yiyeceklerin fazla tüketilmesi), Fazla alkol kullanımı, Hareketsizlik, Stres ve aşırı kaygı, Beta blokerler, diüretikler, doğum kontrol ilaçları, steroidler gibi bazı ilaçların kullanılması, Çoklu miyelom, Polikistik over sendromu, Hipotiroidizm, Kronik böbrek hastalığı, Diyabet (Şeker hastalığı), Metabolik sendrom, Lupus, Uyku apnesi, HIV gibi tıbbi problemler de kolesterol yüksekliğine neden olabilir."]
+      },
+
+
+      {"tag": "Kireçleme Hastalığı",
+      "patterns": ["Kireçleme","Kireçleme hastalığı", "Kireçleme hastalığı nedir"],
+      "responses": ["Kireçlenme ya da tıp dilindeki adıyla osteoartrit, dünya çapında milyonlarca insanın yaşadığı kronik bir eklem rahatsızlığıdır. \nKemiklerin uçlarını çevreleyen kıkırdak dokunun zamanla aşınması, yıpranması ile ortaya çıkan bir rahatsızlıktır. \nZaman içerisinde kötü gidişatlar gerçekleşebilir, kemikler parçalanabilir ve eklem içinde birikmeye başlayabilir. \nBu vücutta iltihabi bir süreci ve devamında ağrı ataklarını ortaya çıkarır."]
+      },
+      {"tag": "Kireçleme Belirtileri",
+      "patterns": ["Kireçleme Belirtileri","Kireçleme hastalığı belirtileri", "Kireçlenme Belirtileri"],
+      "responses": ["Hareket etmekle azalan eklem sertliği ve hareket kısıtlılığı, Bir eklem büküldüğünde eklemeden tıkırtı ya da çıtırtı sesi gelmesi, Eklem etrafında hafif şişme, Aktivite sonrasında veya günün sonuna doğru daha da kötüleşen eklem ağrısı."]
+      },
+      {"tag": "Kireçleme Nedenleri",
+      "patterns": ["Kireçleme nedenleri","Kireçleme hastalığı nedenleri", "Kireçlenme nedenleri"],
+      "responses": ["Geçirilen enfeksiyonlar, Genetik faktörler, Obezite, Hareketsiz yaşam, İskelet sistemi ve bağ dokularını etkileyen genetik veya otoimmün bozukluklar, Kalıcı iltihaplar, Kalsiyum metabolizması bozuklukları, Kalsiyum oranının kemiklerden çok kanda olması sebebiyle ortaya çıkar."]
+      },
+
+
+      {"tag": "Down Sendromu Hastalığı",
+      "patterns": ["Down Sendromu","Down Sendromu hastalığı", "Down Sendromu hastalığı nedir"],
+      "responses": ["Down sendromu (Mongolizm), 21. kromozomun fazladan bir kopyasına sahip olma durumuyla karakterize genetik bir hastalıktır. \nEn sık görülen kromozomal hastalıktır. Aynı zamanda çocuklarda yavaş öğrenme ve zeka geriliğinin en sık sebebidir. \nFazladan olan 21. kromozom dolayısı ile Trizomi 21 olarak da adlandırılır. Kromozomlar kalıtsal bilgiye sahip vücuttaki küçük gen paketleri olarak tanımlanabilir. \nKromozomlar, gebelik süresince ve doğumdan sonra vücudun şeklini ve fonksiyonunu belirleyen genetik materyaldir. \nNormalde insanların 46 kromozomu vardır. Bu sendroma sahip olarak doğan çocuklarda fiziksel ve mental gelişim gerilikleri görülebilir."]
+      },
+      {"tag": "Down Sendromu Belirtileri",
+      "patterns": ["Down Sendromu Belirtileri","Down Sendromu hastalığı belirtileri"],
+      "responses": ["Küçük eller ve ayaklar, Yaşıtlara oranla daha kısa boy, Zayıf kas tonu, Avuç içlerinde tek bir enine çizgi, Ayakta 1’inci ve 2’nci parmaklar arasındaki mesafe ise normalden fazla olması, Konuşma ve dil gelişiminde gecikmeler, Emekleme ve yürüme becerilerinde gecikme, Dikkat sorunları, Uyku zorlukları, İnatçılık ve öfke nöbeti, Tuvalet eğitiminde gecikme."]
+      },
+      {"tag": "Down Sendromu Nedenleri",
+      "patterns": ["Down Sendromu nedenleri","Down Sendromu hastalığı nedenleri"],
+      "responses": ["Her insan hücresi tipik olarak 23 çift kromozom içerir. Her çiftteki bir kromozomun biri erkekten, biri kadından gelir. Down Sendromu, temel üreme hücresinin 21. kromozomunun yumurta veya sperm oluşması esnasında ayrılamayıp çift kalmasıyla oluşur. Bunun sonucunda yumurta veya sperm 23 yerine 24 kromozom içerir.  İnsanlar genellikle 46. kromozoma sahipken Down Sendromlu çocuklarda toplamda 47 kromozom bulunur ve bu durum çeşitli farklılıklara yol açar.Down Sendromu genetik yapıdaki bir değişiklik sonucu oluşur. Günümüzde bu durumun kesin nedeni bilinmemektedir. En yaygın Down Sendromu tipinde kalıtsal geçiş yoktur."]
+      },
+
+
+      {"tag": "Alzheimer Hastalığı",
+      "patterns": ["Alzheimer","Alzheimer hastalığı", "Alzheimer hastalığı nedir", "Alzaymır", "Alzaymır hastalığı", "Alzaymır hastalığı nedir"],
+      "responses": ["Alzheimer hastalığı ileri yaşın bir hastalığı olup, beynin bazı bölümlerinin zaman içinde giderek hasarlanması sonucu, \nbaşta bellek olmak üzere tüm entelektüel faaliyetler, günlük işlevler ve davranışlarda bozulma ile kendini gösteren bir hastalıktır."]
+      },
+      {"tag": "Alzheimer Belirtileri",
+      "patterns": ["Alzheimer Belirtileri","Alzheimer hastalığı belirtileri", "Alzaymır Belirtileri","Alzaymır hastalığı belirtileri"],
+      "responses": ["Gündelik hayatı etkileyecek tarzda unutkanlık, Planlama ve hesaplama da zorlanmak, Daha önce sorunsuz yapılan görevleri yapamamak, taman ve yerleri karıştırmak, Görüntüleri algılama zorlanmak, Konuşma ve anlamada zayıflamak, Eşyaları kaybetmek ve bunlarla ilgili başkalarını suçlamak, Yargılama ve karar vermede güçlük çekmek, Sosyal aktivitelerden çekilmek, Kişilik ve davranış değişiklikleri göstermek."]
+      },
+      {"tag": "Alzheimer Nedenleri",
+      "patterns": ["Alzheimer nedenleri","Alzheimer hastalığı nedenleri", "Alzaymır nedenleri","Alzaymır hastalığı nedenleri"],
+      "responses": ["İleri yaş, Ailede Alzheimer öyküsünün bulunması, Down sendromlu olmak, Geçmişte yaşanan kafa travmaları, Uyku düzeni bozuklukları, Yetersiz fiziksel aktivite, Obezite, Sigara kullanmak veya sürekli olarak sigara dumanına maruz kalmak, Yüksek tansiyon ve yüksek kolesterol, Kötü kontrollü tip 2 diyabet hastalığına sahip olmak, Yetersiz, dengesiz ve sağlıksız beslenmek."]
+      },
+
+
+      {"tag": "AIDS Hastalığı",
+      "patterns": ["AIDS","AIDS hastalığı", "AIDS hastalığı nedir", "aids","aids hastalığı", "aids hastalığı nedir"],
+      "responses": ["AIDS, Acquired Immune Deficiency Syndrome’un (Kazanılmış Bağışıklık Yetersizliği Sendromu) kısaltmasıdır. \nHIV virüsünün neden olduğu AIDS, bağışıklık sisteminin enfeksiyonlara ve kanserlere karşı savunmasız olduğu evredir ve yaşamı tehdit eder. \nYanlış bilinenlerin aksine, HIV pozitif olan her kişide AIDS oluşmamaktadır."]
+      },
+      {"tag": "AIDS Belirtileri",
+      "patterns": ["AIDS Belirtileri","AIDS hastalığı belirtileri", "aids belirtileri"],
+      "responses": ["Ateş, Boğaz ağrısı ve boğazda iltihaplanma, Baş ağrısı, Lenf bezlerinde büyüme, Ağızda, yemek borusunda ve genital organlarda yaralar, Kas ve eklem ağrısı, Bir aydan fazla süren ve tedavi edilmeyen ishal, Baş ağrısı, Bulantı ve kusma."]
+      },
+      {"tag": "AIDS Nedenleri",
+      "patterns": ["AIDS nedenleri","AIDS hastalığı nedenleri", "aids nedenleri"],
+      "responses": ["HIV infeksiyonu cinsel yolla, infekte kanla temasla ve perinatal yolla bulaşır. Bunlar içerisinde uyuşturucu kullanımı, uygun şartlarda yapılmayan dövme ve manikür, pedikür işlemleri de vardır."]
+      }
+   ]
+}

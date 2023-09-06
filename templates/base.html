@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sağlık Sohbet Botu</title>
+</head>
+<body style="background-color: #cfe0e8">
+<div class="container">
+    <div class="animated-gif">
+        <img src="{{ url_for('static', filename='images/robot.gif') }}">
+    </div>
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="{{ url_for('static', filename='images/robot-icon.png') }}" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Sağlık Sohbet Botu</h4>
+                    <p class="chatbox__description--header">Merhaba. Ben SSB. Size nasıl yardımcı olabilrim?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Bir Mesaj Yaz...">
+                <button class="chatbox__send--footer send__button">Gönder</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chatbox-icon.png') }}" /></button>
+        </div>
+    </div>
+</div>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>
